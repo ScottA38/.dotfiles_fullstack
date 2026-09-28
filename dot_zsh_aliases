@@ -5,9 +5,10 @@ alias -- ring='grep -Rin'
 alias -- lal='ls -al'
 alias -- chcd="chezmoi"
 alias -- ched="chezmoi edit"
+alias -- code="open -a Visual\\ Studio\\ Code.app"
 
 alias -- boots-n-cats="tail -n +1"
-alias -- moggy="magick mogrify -format"
+alias -- mog-jpg="magick mogrify -format"
 
 # Nix-Darwin-specific aliases
 alias -- darwin-sw='sudo darwin-rebuild switch --flake'

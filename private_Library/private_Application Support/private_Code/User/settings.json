@@ -1,0 +1,47 @@
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "errorLens.excludeWorkspaces": [],
+    "explorer.confirmDragAndDrop": false,
+    "errorLens.enabledDiagnosticLevels": [
+      "info"
+    ],
+    "git.openRepositoryInParentFolders": "always",
+    "editor.minimap.enabled": false,
+    "amazonQ.shareContentWithAWS": false,
+    "amazonQ.telemetry": false,
+    "amazonQ.suppressPrompts": {
+        "amazonQChatDisclaimer": true
+    },
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "typescript": false
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "vim.enableNeovim": true,
+    "github.copilot.nextEditSuggestions.eagerness": "low",
+    "chat.viewSessions.orientation": "stacked",
+    "chat.mcp.gallery.enabled": true,
+    "chat.mcp.assisted.nuget.enabled": true,
+    "chat.mcp.serverSampling": {
+
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.defaultColorDecorators": "never",
+      "editor.formatOnType": true,
+      "editor.wordBasedSuggestions": "off"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "diffEditor.renderSideBySide": true
+}

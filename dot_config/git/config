@@ -19,14 +19,8 @@
 [push]
   autoSetupRemote = true
 
-[commit]
-  gpgsign = "true"
-
 [stash]
   showIncludeUntracked = "true"
-
-[tag]
-  gpgsign = "true"
 
 [init]
 	defaultBranch = "main"
@@ -35,6 +29,5 @@
 [user]
 	email = "simple.scott.94@googlemail.com"
 	name = "ScottA38"
-	signingkey = 7120B5642050183D43A215C6A0087ADDF4360D94
 [core]
 	editor = nvim

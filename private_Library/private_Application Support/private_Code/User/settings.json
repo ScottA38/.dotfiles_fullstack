@@ -11,6 +11,7 @@
     ],
     "git.openRepositoryInParentFolders": "always",
     "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": false,
     "amazonQ.shareContentWithAWS": false,
     "amazonQ.telemetry": false,
     "amazonQ.suppressPrompts": {
@@ -26,6 +27,8 @@
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "vim.enableNeovim": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.inlineSuggest.minShowDelay": 300,
     "github.copilot.nextEditSuggestions.eagerness": "low",
     "chat.viewSessions.orientation": "stacked",
     "chat.mcp.gallery.enabled": true,
@@ -43,5 +46,10 @@
       "editor.wordBasedSuggestions": "off"
     },
     "python.analysis.typeCheckingMode": "basic",
-    "diffEditor.renderSideBySide": true
+    "diffEditor.renderSideBySide": true,
+    "claudeCode.preferredLocation": "panel",
+    "git.blame.editorDecoration.enabled": true,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }

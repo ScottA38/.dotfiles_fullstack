@@ -27,7 +27,7 @@
 	templateDir = /Users/srmes/.config/git/templates
 
 [user]
-	email = "simple.scott.94@googlemail.com"
+	email = "94andersonsc@googlemail.com"
 	name = "ScottA38"
 [core]
 	editor = nvim
